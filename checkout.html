@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanh Toán - Phụ Kiện So Sea</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="bg-light py-3">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <span class="hotline">Hotline: 0978.377.643</span>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="picture/logo.jpg" alt="Logo" class="logo img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex justify-content-end align-items-center">
+                        <a href="index.html" class="btn btn-outline-primary">Quay lại cửa hàng</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container py-5">
+        <h1 class="text-center mb-4">Thanh Toán</h1>
+        <div id="cart-items">
+            <!-- Cart items will be dynamically inserted here -->
+        </div>
+        <div class="text-end mt-4">
+            <h4>Tổng cộng: <span id="total-price">0₫</span></h4>
+            <button class="btn btn-primary" id="place-order-btn">Đặt hàng</button>
+        </div>
+    </div>
+
+    <div class="footer bg-light py-4">
+        <div class="container text-center">
+            <p>Liên hệ: Lớp Graphic Design, FPT University</p>
+            <p>Call/Zalo: 0978.377.643</p>
+            <p>Open: 10h - 20h (Từ T2 - CN)</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="checkout.js"></script>
+</body>
+</html>

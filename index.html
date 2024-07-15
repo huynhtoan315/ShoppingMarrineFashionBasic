@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phụ Kiện Trí Nguyễn</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+</head>
+<body>
+    <header class="custom-header py-3">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <span class="hotline">Hotline: 0978.377.643</span>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="picture/logo.jpg" alt="Logo" class="logo img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex justify-content-end align-items-center">
+                        <input class="form-control me-2" type="search" placeholder="Tìm Kiếm" aria-label="Search" id="search-input">
+                        <button class="btn btn-outline-primary" id="search-btn">Tìm</button>
+                        <button class="btn btn-outline-primary position-relative ms-2" id="cart-btn">
+                            <i class="bi bi-cart"></i>
+                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger" id="cart-count">
+                                0
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="home-link">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="checkout-link">Thanh Toán</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.facebook.com/profile.php?id=100004800390296" target="_blank">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="team-introduction bg-light py-5 text-center">
+        <div class="container">
+            <img src="picture/anhnhom.jpg" alt="Nhóm So Sea" class="img-fluid mb-3">
+            <p class="lead custom-text">Chào mừng bạn đến với nhóm So Sea! Chúng tôi chuyên cung cấp các phụ kiện thời trang đi biển chất lượng cao. </p>
+            <p class="lead custom-text">Cảm ơn bạn đã ghé thăm cửa hàng của chúng tôi!</p>
+        </div>
+    </div>
+
+    <div class="container py-5">
+        <div class="row row-cols-1 row-cols-md-5 g-4" id="product-container">
+            <!-- Products will be dynamically inserted here -->
+        </div>
+    </div>
+
+    <div class="footer custom-footer py-4">
+        <div class="container text-center">
+            <p>Liên hệ: Lớp Graphic Design GD18B, FPT University</p>
+            <p>Call/Zalo: 0978.377.643</p>
+            <p>Open: 8h - 20h (Từ T2 - CN)</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
